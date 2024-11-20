@@ -1,0 +1,17 @@
+This Java project demonstrates CRUD (Create, Read, Update, Delete) operations on a student table in a MySQL database using PreparedStatement and Scanner for dynamic user input. The operations include:
+
+Create: Insert new student records with stud_id, name, and age.
+Read: Retrieve student details based on a given stud_id.
+Update: Modify an existing student's name and age based on stud_id.
+Delete: Delete a student record using stud_id.
+Database Connection Details:
+
+Database Name: learnjdbc
+MySQL Credentials: Username: root, Password: yash
+The MySQL server is assumed to be running locally at port 3306.
+Technologies Used:
+
+Java 
+MySQL Database
+Scanner (for user input)
+This project highlights the use of PreparedStatement for preventing SQL injection and the Scanner class to accept user input for performing database operations.
