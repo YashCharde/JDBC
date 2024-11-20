@@ -1,0 +1,16 @@
+This repository contains a Java project demonstrating the use of JDBC PreparedStatement for performing CRUD (Create, Read, Update, Delete) operations on a MySQL database. The LearnJdbcPs class includes methods to:
+
+Insert a product record into the Products table using PreparedStatement.
+Retrieve product details based on product_id.
+Update the price and quantity of an existing product.
+Delete a product using its product_id.
+Database Connection Details:
+
+Database Name: learnjdbc
+MySQL Credentials: Username: root, Password: yash
+The project assumes that the MySQL server is running locally at port 3306.
+Technologies Used:
+
+Java (JDBC API)
+MySQL Database
+This project aims to illustrate safe and efficient database operations using PreparedStatement, which helps in preventing SQL injection and ensures proper handling of SQL queries.
